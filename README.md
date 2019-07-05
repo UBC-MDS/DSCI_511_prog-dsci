@@ -2,9 +2,6 @@
 
 Overview of data structures, iteration, flow control, and program design relevant to data exploration and analysis. When and how to exploit pre-existing packages/libraries.
 
-__Course webpage__: https://github.ubc.ca/MDS-2018-19/DSCI_511_prog-dsci_students
-
-__Slack Channel__: https://ubc-mds.slack.com/messages/511_prog-dsci
 
 ## Course Learning Outcomes
 
@@ -31,20 +28,6 @@ This is an __assignment-based course__. You'll be evaluated as follows:
 | Quiz 2           | 20%     | Friday, Oct 5, 14:40 | Wood IRC Room 4 |
 
 Tip: Use the lecture learning objectives as beacons when studying for your quizzes!
-
-## Teaching Team
-
-At your service!
-
-| Position           | Name    | Slack Handle | GHE Handle |
-| :----------------: | :-----: | :----------: | :--------: |
-| Lecture Instructor | Patrick Walls |    `@pwalls`       | `@wallspat`        |
-| Lab & Lecture Instructor | Vincenzo Coia  | `@vcoia`  | `@vcoia`  |
-| Teaching Assistant | Ali Mirza       | `@Ali Mirza` | `@amirza17` |
-| Teaching Assistant | Flora Liu       | `@Flora Liu` | `@floraliu` |
-| Teaching Assistant | Joseph Khoury   | `@joseph` | `@josephjk` | 
-
-Lectures 1-4 are taught by Patrick; Lectures 5-8 are taught by Vincenzo.
 
 
 ## Lecture Details
