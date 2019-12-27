@@ -6,6 +6,8 @@ Overview of data structures, iteration, flow control, and program design relevan
 
 Note: lecture recordings of the Python classes (lectures 1-4) from the 2019 course offering are available [here](https://www.youtube.com/playlist?list=PLWmXHcz_53Q26aQzhknaT3zwWvl7w8wQE).
 
+| Lecture | Topic | Pre-readings/Resources | Practice exercises |
+|:-------:|-------|--------------|---|
 | 1 | [Basic Python](lectures/lecture1.ipynb) | [Think Python](http://greenteapress.com/thinkpython/html/index.html) "Variables, expressions and statements", "Iteration", "Strings", "Case study: word play", "Lists", "Dictionaries", "Tuples" |
 | 2 | [Functions in Python](lectures/lecture2.ipynb) | [Think Python](http://greenteapress.com/thinkpython/html/index.html) "Functions", "Case study: interface design" [Python Testing](http://pythontesting.net/start-here/), [PEP 257: Docstrings](https://www.python.org/dev/peps/pep-0257/) and [NumPy docstring examples](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html),  |
 | 3 | [Programming style; intro to NumPy](lectures/lecture3.ipynb) | [PEP 8](https://www.python.org/dev/peps/pep-0008/), [NumPy quickstart tutorial](https://docs.scipy.org/doc/numpy/user/quickstart.html) |
