@@ -2,6 +2,18 @@
 
 Overview of data structures, iteration, flow control, and program design relevant to data exploration and analysis. When and how to exploit pre-existing packages/libraries.
 
+## Schedule
+
+Note: lecture recordings of the Python classes (lectures 1-4) from the 2019 course offering are available [here](https://www.youtube.com/playlist?list=PLWmXHcz_53Q26aQzhknaT3zwWvl7w8wQE).
+
+| 1 | [Basic Python](lectures/lecture1.ipynb) | [Think Python](http://greenteapress.com/thinkpython/html/index.html) "Variables, expressions and statements", "Iteration", "Strings", "Case study: word play", "Lists", "Dictionaries", "Tuples" |
+| 2 | [Functions in Python](lectures/lecture2.ipynb) | [Think Python](http://greenteapress.com/thinkpython/html/index.html) "Functions", "Case study: interface design" [Python Testing](http://pythontesting.net/start-here/), [PEP 257: Docstrings](https://www.python.org/dev/peps/pep-0257/) and [NumPy docstring examples](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html),  |
+| 3 | [Programming style; intro to NumPy](lectures/lecture3.ipynb) | [PEP 8](https://www.python.org/dev/peps/pep-0008/), [NumPy quickstart tutorial](https://docs.scipy.org/doc/numpy/user/quickstart.html) |
+| 4 | [Classes and imports in Python; indirection and scoping](lectures/lecture4.ipynb) | Python documentation: [objects and classes](https://docs.python.org/3/tutorial/classes.html) and [modules and packages](https://docs.python.org/3/tutorial/modules.html), [Think Python](http://greenteapress.com/thinkpython/html/index.html) "Classes and objects", "Classes and functions", "Classes and methods" |
+| 5 | [Data types, basic operations, for/if, subsetting, style guides](lectures/05_lecture-intro-to-r.ipynb) | <ul><li>[ Chapters 2 - 5 of Advanced R](https://adv-r.hadley.nz/foundations-intro.html) <li> [The tidyverse style guide](https://style.tidyverse.org/) </li><li>[Key points of how R differs from Python, from Tidynomicon](http://tidynomicon.tech/basics.html#key-points)<li>[RStudio Base R Cheat Sheet](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf) <li>[RStudio Advanced R Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/02/advancedR.pdf) | [Swirl R programming course](https://swirlstats.com/scn/rprog.html) |
+|6 | Functions, unit tests, anonymous functions, exceptions, roxygen-style documentation, scoping | <ul><li>[ Chapters 6 - 8 of Advanced R](https://adv-r.hadley.nz/functions.html) <li> [Testing chapter of R packages](https://r-pkgs.org/tests.html) |
+| 7 | Functional-style programming in R | <ul><li>[ Chapters 9 of Advanced R](https://adv-r.hadley.nz/fp.html) <li> [RStudio Apply/map functions Cheat Sheet](https://github.com/rstudio/cheatsheets/raw/master/purrr.pdf)  | [Swirl advanced R course](https://swirlstats.com/scn/arp.html) |
+| 8 | Meta programming via tidy evaluation | <ul><li> [Tidy evaluation](https://tidyeval.tidyverse.org/) <li>[RStudio Tidy Evaluation Cheat Sheet](https://github.com/rstudio/cheatsheets/raw/master/tidyeval.pdf) <li> "A simpler interpolation pattern with {{" Section of [rlang 0.4.0 article](https://www.tidyverse.org/articles/2019/06/rlang-0-4-0/)|
 
 ## Course Learning Outcomes
 
@@ -13,40 +25,6 @@ By the end of the course, students are expected to:
 4. Understand how to write functions in both R and Python.
 5. Produce human-readable code that incorporates best practices of programming and coding style. 
 6. Predict the output of code based on R's scoping rules. 
-
-## Assessments
-
-This is an __assignment-based course__. You'll be evaluated as follows:
-
-| Assessment       | Weight  | Due Date         | Location |
-|------------------|---------|------------------|----------|
-| Lab Assignment 1 | 15%     | Saturday, Sept 15 at 18:00 | Submit to Github |
-| Lab Assignment 2 | 15%     | Saturday, Sept 22 at 18:00 | Submit to Github |
-| Quiz 1           | 20%     | Tuesday, Sept 25, 15:00-15:30   | Your lab room | 
-| Lab Assignment 3 | 15%     | Saturday, Sept 29 at 18:00 | Submit to Github |
-| Lab Assignment 4 | 15%     | **Wednesday**, Oct 3 at 18:00     | Submit to Github |
-| Quiz 2           | 20%     | Friday, Oct 5, 14:40 | Wood IRC Room 4 |
-
-Tip: Use the lecture learning objectives as beacons when studying for your quizzes!
-
-
-## Lecture Details
-
-| Lecture | Topic | Pre-readings/Resources |
-|:-------:|-------|--------------|
-| 1 | Python datatypes and operators | Python documentation: [standard data types](https://docs.python.org/3/library/stdtypes.html) and [builtin functions](https://docs.python.org/3/library/functions.html); Think Python: [variables, expressions and statements](http://greenteapress.com/thinkpython/html/thinkpython003.html), [lists](http://greenteapress.com/thinkpython/html/thinkpython011.html), [tuples](http://greenteapress.com/thinkpython/html/thinkpython013.html) and [strings](http://greenteapress.com/thinkpython/html/thinkpython009.html) |
-| 2 | Python control flow and functions | Python documentation: [control flow](https://docs.python.org/3/tutorial/controlflow.html) and [functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions) |
-| 3 | Python program design and testing | [Python Testing](http://pythontesting.net/start-here/), [PEP 257: Docstrings](https://www.python.org/dev/peps/pep-0257/) and [NumPy docstring examples](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html) |
-| 4 | Python classes, objects, modules and packages | Python documentation: [objects and classes](https://docs.python.org/3/tutorial/classes.html) and [modules and packages](https://docs.python.org/3/tutorial/modules.html) |
-| 5-6 | The R landscape | - [adv-r: Data Structures](http://adv-r.had.co.nz/Data-structures.html), except for the "Attributes" and "Factors" sections. <p> - [adv-r: Subsetting](http://adv-r.had.co.nz/Subsetting.html), up until (but not including) "Missing/out of bounds indices". |
-| 7 | Environments and Scoping | <p> - [adv-r: Functions: Lexical Scoping section](http://adv-r.had.co.nz/Functions.html#lexical-scoping) <p> - [adv-r: Environments](http://adv-r.had.co.nz/Environments.html): "Environment Basics" section, and "Function Environments" section (but don't worry about "binding environments" and "calling environments"). |
-| 8 | Programming for Humans | <p> - Style guide, python: [pep8](https://www.python.org/dev/peps/pep-0008/) <p> - Style guide, R: [adv-r: Style](http://adv-r.had.co.nz/Style.html) <p> - [adv-r: Exceptions and Debugging](http://adv-r.had.co.nz/Exceptions-Debugging.html), sections "Debugging Tools" and "Defensive Programming" |
-
-If time remains, we will cover:
-
-| Topic | Relevant Text |
-|-------|-------------|
-| R "Vocabulary" | [adv-r: Vocabulary](http://adv-r.had.co.nz/Vocabulary.html) |
 
 ## Annotated Resources
 
